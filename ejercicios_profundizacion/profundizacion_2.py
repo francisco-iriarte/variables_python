@@ -39,7 +39,7 @@ print('Sistema de ingreso de datos')
 
 #
 nombre = str(input('Ingrese el/los nombre/s:  '))
-#numero1 = int(input("Dígame un número: "))
+#
 apellido = str(input('Ingrese el/los apellido/s:'))
 #
 dni = str(input('Ingrese el N° del DNI:    '))
