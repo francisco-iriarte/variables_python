@@ -31,5 +31,23 @@ Finalmente el programa debe imprimir dos líneas de texto por separado
   entienda de que se está hablando.
 '''
 
+import fractions
+
+
 print('Sistema de ingreso de datos')
 # Empezar aquí la resolución del ejercicio
+
+#
+nombre = str(input('Ingrese el/los nombre/s:  '))
+#numero1 = int(input("Dígame un número: "))
+apellido = str(input('Ingrese el/los apellido/s:'))
+#
+dni = str(input('Ingrese el N° del DNI:    '))
+#
+edad = str(input('Ingrese la edad:          '))
+#
+estatura = float(input('Ingrese la estatura:      '))
+
+#
+print (nombre + " " + apellido, " DNI: ", dni)
+print (nombre + " " + apellido, " Edad: ", edad, "estatura: ", estatura)

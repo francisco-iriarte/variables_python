@@ -11,7 +11,7 @@
 
 # Ingrese dos palabras y arme combinaciones con ella
 print('Ingrese palabra 1:')
-palabra_1 = str(input())
+palabra_1 = str(input() )
 
 print('Ingrese palabra 2:')
 palabra_2 = str(input())
