@@ -45,3 +45,12 @@ Cualquier duda con el método split pueden consultarla por el campus
 
 print('Jugando con texto')
 # Empezar aquí la resolución del ejercicio
+padre_1 = str(input('Ingrese el nombre completo del primer progenitor: '))
+padre_2 = str(input('Ingrese el nombre completo del segundo progenitor: '))
+#
+hijo = str(input('Ingrese el nombre del hijo: '))
+#
+detalle_padre_1 = padre_1.split(' ')
+detalle_padre_2 = padre_2.split(' ')
+print (detalle_padre_1)
+print (detalle_padre_2)
